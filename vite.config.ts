@@ -16,12 +16,20 @@ export default defineConfig({
         display: "standalone",
         background_color: "#ffffff",
         theme_color: "#ffffff",
+        orientation: "portrait",
+        categories: ["test"],
         icons: [
           {
             src: "favicon.svg",
             sizes: "512x512",
             type: "image/svg+xml",
             purpose: "any",
+          },
+          {
+            src: "favicon.svg",
+            sizes: "192x192",
+            type: "image/svg+xml",
+            purpose: "maskable",
           },
         ],
       },
